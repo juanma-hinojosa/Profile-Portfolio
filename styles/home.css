@@ -1,5 +1,5 @@
 .home {
-    background-image: url("img/bg-home1.jpg");
+    background-image: url(img/bg-home1.jpg);
     background-color: rgb(50, 50, 50);
     background-blend-mode: soft-light;
     padding: 100px;
