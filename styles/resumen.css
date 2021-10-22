@@ -1,0 +1,46 @@
+.resumen {
+    background-image: url(/img/bg-resume.jpeg);
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.resumen .textBx {
+    padding: 100px;
+    text-align: center;
+    /* align-items: center; */
+}
+
+.resumen .textBx .resumen-content, .resumen-content, .name {
+    padding: 20px 0px;
+}
+
+.resumen .textBx .resumen-title {
+    font-size: 3em;
+    color: whitesmoke;
+}
+
+.resumen .textBx .resumen-content {
+    font-style: oblique;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.resumen .textBx .name h4, p {
+    padding: 5px 0px;
+}
+
+.resumen .textBx .name h4 {
+    font-size: 1.5em;
+    color: rgb(228, 43, 59);
+    letter-spacing: 1px;
+}
+
+.resumen .textBx .name p {
+    color: whitesmoke;
+    letter-spacing: 1px;
+}

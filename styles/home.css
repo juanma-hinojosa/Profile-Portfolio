@@ -1,0 +1,39 @@
+.home {
+    background-image: url(/img/bg-home1.jpg);
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+    padding: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content-home {
+    display: grid;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.content-home > .img img {
+    border-radius: 50%;
+}
+
+.content-home > .text > .name h2 {
+    font-weight: 900;
+    font-size: 5em;
+    /* color: crimson; */
+    color: rgb(228, 43, 59);
+}
+
+.content-home > .text > .description p {
+    font-weight: 500;
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+/* 
+.img img{
+    border-radius: 50%;
+    position: relative;
+    left: 40px;
+} */

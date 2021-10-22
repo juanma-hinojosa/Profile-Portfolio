@@ -1,0 +1,107 @@
+.contact {
+    background-image: url(/img/wallpaperbetter\ \(2\).jpg);
+    background-color: rgb(10, 8, 8);
+    background-blend-mode: soft-light;
+    background-repeat: no-repeat;
+    padding: 100px 0px;
+}
+
+.contact > .contact-content > .title-contact {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2.5em;
+    letter-spacing: 1px;
+}
+
+.contact > .contact-content > .title-contact p {
+    font-size: 1rem;
+    color: gray;
+    font-style: oblique;
+    padding: 20px;
+}
+
+.contact > .contact-content > .wrapper-contact {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.contact > .contact-content > .wrapper-contact > .left-side {
+    margin: 20px;
+}
+
+.contact > .contact-content > .wrapper-contact > .left-side > .telefono {
+    color: rgb(228, 43, 59);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    padding: 20px 0px;
+}
+
+.contact > .contact-content > .wrapper-contact > .left-side > .email {
+    color: rgb(228, 43, 59);
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    padding: 0px 0px 20px;
+}
+
+.contact > .contact-content > .wrapper-contact > .left-side > .icons {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact > .contact-content > .wrapper-contact > .left-side > .icons a {
+    color: whitesmoke;
+    font-size: 1.5em;
+    width: 35px;
+    text-align: center;
+    transition: .3s;
+}
+
+.contact > .contact-content > .wrapper-contact > .left-side > .icons a:hover {
+    color: rgb(228, 43, 59);
+    font-size: 1.6em;
+}
+
+.contact > .contact-content > .wrapper-contact > .right-side {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+}
+
+.contact > .contact-content > .wrapper-contact > .right-side > .img img {
+    width: 100%;
+    height: 100%;
+    margin: 20px 0px;
+}
+
+.contact > .contact-content > .wrapper-contact > .right-side > .img a {
+    font-size: 1.1rem;
+    letter-spacing: 1.5px;
+    color: gray;
+    border: 2px solid gray;
+    text-decoration: none;
+    padding: 5px 30px;
+    transition: .3s;
+}
+
+.contact > .contact-content > .wrapper-contact > .right-side > .img a:hover {
+    background-color: rgb(228, 43, 59);
+    border: 2px solid rgb(228, 43, 59);
+    color: whitesmoke;
+    color: black;
+}
+
+@media (max-width: 48em) {
+    .wrapper-contact {
+        text-align: center;
+    }
+
+    .wrapper-contact > .left-side .icons{
+        margin: auto;
+    }
+}
