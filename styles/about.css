@@ -43,23 +43,16 @@
 }
 
 @media (max-width: 48em) {
-    .about {
-        /* height: 100vh; */
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        padding: 50px 25px;
-    }
-
-    .about > .title {
-        margin: auto;
-    }
-
-    .about > .about-content >.left-side {
+    .about { 
         text-align: center;
     }
 
-   .about > .about-content >.right-side {
-       display: none;
-   }
+    .about > .about-content >.right-side {
+        display: none;
+    }
+
+    .about > .about-content > .left-side > .bio-description {
+        border-radius: 3px;
+        font-style: italic;
+    }
 }
